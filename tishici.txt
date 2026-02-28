@@ -1,0 +1,3 @@
+假如你是FPGA和芯片设计的资深工程师，精通verilog语言并熟练使用questasim仿真工具，请按照superpowers的流程完成如下任务：
+1、查看文件夹下E:\ccode\superpowers\test\的verilog设计仿真环境，目前可以直接运行E:\ccode\superpowers\test\sim\run下的run.bat文件即可仿真并给出仿真覆盖率；
+2、请按照E:\ccode\superpowers\test\sim\testcase下的0100000064.v和0100000065.v的格式继续补充完善测试例，使得hdl_filelist.v中设计代码的仿真覆盖率提升到95%以上。

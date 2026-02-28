@@ -1,0 +1,985 @@
+# do sim.do
+# ** UI-Msg: (vish-17) Recursive reference in 'others' clause in "C:/questasim64_2020.1/win64/../modelsim.ini" to "C:/questasim64_2020.1/win64/../modelsim.ini".
+# QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 17:37:41 on Feb 26,2026
+# vlog -f ../filelist/sim_filelist.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_# 
+# <EOF>
+ES
+# -- Compiling module dffp
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module altlvds_tx
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module hssi_pll
+# -- Compiling module MF_ram7x20_syn
+# -- Compiling module hssi_fifo
+# -- Compiling module hssi_rx
+# -- Compiling module hssi_tx
+# -- Compiling module altcdr_rx
+# -- Compiling module altcdr_tx
+# -- Compiling module altcam
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module altqpram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module clockGenerator
+# -- Compiling module data_cmp
+# -- Compiling module ephy
+# -- Compiling module host_sim
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altddio_bidir
+# 	altcdr_rx
+# 	altcdr_tx
+# 	altcam
+# 	altdpram
+# 	alt3pram
+# 	altqpram
+# 	parallel_add
+# 	scfifo
+# 	dcfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	testbench
+# End time: 17:37:41 on Feb 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 17:37:41 on Feb 26,2026
+# vlog -f ../filelist/hdl_filelist.v -cover bcesxf 
+# -- Compiling module Broadcast_filter
+# -- Compiling module Clk_ctrl
+# -- Compiling module CLK_DIV2
+# -- Compiling module CLK_SWITCH
+# -- Compiling module CRC_chk
+# -- Compiling module CRC_gen
+# -- Compiling module duram
+# -- Compiling module emac_rx_change
+# -- Compiling module emac_tx_change
+# -- Compiling module eth_clockgen
+# -- Compiling module eth_miim
+# -- Compiling module eth_outputcontrol
+# -- Compiling module eth_shiftreg
+# -- Compiling module flow_ctrl
+# -- Compiling module MAC_rx
+# -- Compiling module MAC_rx_add_chk
+# -- Compiling module MAC_rx_ctrl
+# -- Compiling module MAC_rx_FF
+# -- Compiling module mac_rx_ram
+# -- Compiling module MAC_top
+# -- Compiling module MAC_tx
+# -- Compiling module MAC_tx_addr_add
+# -- Compiling module MAC_tx_ctrl
+# -- Compiling module MAC_tx_FF
+# -- Compiling module Phy_int
+# -- Compiling module Ramdon_gen
+# -- Compiling module regs_4096_36_d
+# -- Compiling module regs_64_32_s
+# -- Compiling module regs_8_8_dp
+# -- Compiling module Reg_int
+# -- Compiling module RegCPUData
+# -- Compiling module RMON
+# -- Compiling module RMON_addr_gen
+# -- Compiling module RMON_CTRL
+# -- Compiling module RMON_dpram
+# 
+# Top level modules:
+# 	duram
+# 	mac_rx_ram
+# 	MAC_top
+# End time: 17:37:41 on Feb 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -coverage work.testbench 
+# Start time: 17:37:41 on Feb 26,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2020.1 win64 Jan 28 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.testbench(fast)
+# Loading work.clockGenerator(fast)
+# Loading work.ephy(fast)
+# Loading work.MAC_top(fast)
+# Loading work.MAC_rx(fast)
+# Loading work.MAC_rx_ctrl(fast)
+# Loading work.MAC_rx_FF(fast)
+# Loading work.regs_4096_36_d(fast)
+# Loading work.Broadcast_filter(fast)
+# Loading work.CRC_chk(fast)
+# Loading work.MAC_rx_add_chk(fast)
+# Loading work.regs_8_8_dp(fast)
+# Loading work.MAC_tx(fast)
+# Loading work.MAC_tx_ctrl(fast)
+# Loading work.CRC_gen(fast)
+# Loading work.flow_ctrl(fast)
+# Loading work.MAC_tx_addr_add(fast)
+# Loading work.MAC_tx_FF(fast)
+# Loading work.Ramdon_gen(fast)
+# Loading work.RMON(fast)
+# Loading work.RMON_addr_gen(fast)
+# Loading work.RMON_CTRL(fast)
+# Loading work.RMON_dpram(fast)
+# Loading work.regs_64_32_s(fast)
+# Loading work.Phy_int(fast)
+# Loading work.Clk_ctrl(fast)
+# Loading work.CLK_DIV2(fast)
+# Loading work.CLK_SWITCH(fast)
+# Loading work.eth_miim(fast)
+# Loading work.eth_clockgen(fast)
+# Loading work.eth_shiftreg(fast)
+# Loading work.eth_outputcontrol(fast)
+# Loading work.Reg_int(fast)
+# Loading work.RegCPUData(fast)
+# Loading work.emac_rx_change(fast)
+# Loading work.emac_tx_change(fast)
+# Loading work.data_cmp(fast)
+# Loading work.host_sim(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: intel  Hostname: DESKTOP-HBNSFEA  ProcessID: 82276
+#           Attempting to use alternate WLF file "./wlfttrw99e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttrw99e
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+#     103380       0
+#     217300       1
+#     319700       2
+#     332980       3
+#     354740       4
+#     443060       5
+#     504020       6
+#     544500       7
+#     630580       8
+#     724980       9
+#     752820      10
+#     794900      11
+#     821300      12
+#     860020      13
+#     965620      14
+#    1086900      15
+#    1119220      16
+#    1206740      17
+#    1328020      18
+#    1386260      19
+#    1412340      20
+#    1527700      21
+#    1578100      22
+#    1620500      23
+#    1675060      24
+#    1732020      25
+#    1835220      26
+#    1924500      27
+#    1982420      28
+#    2099380      29
+#    2117300      30
+#    2179220      31
+#    2264020      32
+#    2355700      33
+#    2405300      34
+#    2467220      35
+#    2583380      36
+#    2681940      37
+#    2736980      38
+#    2854900      39
+#    2944660      40
+#    3042580      41
+#    3076500      42
+#    3182100      43
+#    3295220      44
+#    3386580      45
+#    3482900      46
+#    3578100      47
+#    3597620      48
+#    3691380      49
+#    3726900      50
+#    3765460      51
+#    3779700      52
+#    3814260      53
+#    3934900      54
+#    3973140      55
+#    4024340      56
+#    4076020      57
+#    4092180      58
+#    4177620      59
+#    4207220      60
+#    4325140      61
+#    4445140      62
+#    4513460      63
+#    4628980      64
+#    4696020      65
+#    4808020      66
+#    4894260      67
+#    4909620      68
+#    4944500      69
+#    5048340      70
+#    5093460      71
+#    5139540      72
+#    5181460      73
+#    5210100      74
+#    5217300      75
+#    5233780      76
+#    5260180      77
+#    5357620      78
+#    5433620      79
+#    5482740      80
+#    5494740      81
+#    5532820      82
+#    5589140      83
+#    5627700      84
+#    5671060      85
+#    5736980      86
+#    5797300      87
+#    5895380      88
+#    5961140      89
+#    6012660      90
+#    6054420      91
+#    6109140      92
+#    6125620      93
+#    6165300      94
+#    6182900      95
+#    6242260      96
+#    6256820      97
+#    6373300      98
+#    6395060      99
+# 
+#     6395060                0100000064 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 6395060 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 6395100 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 6395100 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 6395140 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 6395180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#    6406324             0
+#    6414892             1
+#    6429060             2
+#    6442076             3
+#    6449924             4
+#    6465164             5
+#    6471252             6
+#    6485212             7
+#    6500676             8
+#    6514412             9
+#    6529940            10
+#    6541388            11
+#    6557188            12
+#    6562876            13
+#    6579844            14
+#    6595516            15
+#    6605092            16
+#    6619676            17
+#    6631092            18
+#    6641004            19
+#    6650772            20
+#    6662508            21
+#    6672132            22
+#    6686076            23
+#    6697588            24
+#    6709212            25
+#    6724500            26
+#    6730764            27
+#    6742500            28
+#    6754428            29
+#    6770084            30
+#    6777868            31
+#    6787188            32
+#    6804108            33
+#    6820212            34
+#    6828476            35
+#    6837748            36
+#    6852124            37
+#    6861700            38
+#    6877916            39
+#    6884932            40
+#    6899644            41
+#    6915332            42
+#    6928252            43
+#    6936740            44
+#    6945916            45
+#    6957700            46
+#    6963324            47
+#    6977092            48
+#    6989292            49
+#    7004228            50
+#    7014316            51
+#    7030180            52
+#    7038748            53
+#    7045012            54
+#    7059628            55
+#    7067604            56
+#    7074076            57
+#    7080900            58
+#    7096508            59
+#    7107044            60
+#    7113516            61
+#    7125316            62
+#    7138844            63
+#    7149668            64
+#    7158956            65
+#    7168500            66
+#    7176284            67
+#    7193236            68
+#    7199276            69
+#    7211012            70
+#    7222556            71
+#    7233732            72
+#    7250924            73
+#    7267828            74
+#    7282428            75
+#    7291492            76
+#    7308284            77
+#    7325156            78
+#    7336876            79
+#    7350100            80
+#    7360780            81
+#    7371988            82
+#    7387564            83
+#    7397284            84
+#    7411548            85
+#    7420804            86
+#    7426428            87
+#    7436788            88
+#    7449916            89
+#    7466004            90
+#    7482972            91
+#    7496788            92
+#    7503500            93
+#    7515540            94
+#    7529404            95
+#    7546276            96
+#    7556092            97
+#    7569620            98
+#    7575244            99
+# 
+#     7575244                0100000065 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575244 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575252 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575260 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575268 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575276 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575284 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575292 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575292 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575300 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575308 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575316 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575324 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575332 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575340 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 7575348 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#    7582300       0
+#    7589020       1
+#    7595740       2
+#    7602460       3
+#    7609180       4
+#    7615900       5
+#    7622620       6
+#    7629340       7
+#    7636060       8
+#    7642780       9
+#    7649500      10
+#    7656220      11
+#    7662940      12
+#    7669660      13
+#    7676380      14
+#    7683100      15
+#    7689820      16
+#    7696540      17
+#    7703260      18
+#    7709980      19
+#    7716700      20
+#    7723420      21
+#    7730140      22
+#    7736860      23
+#    7743580      24
+#    7750300      25
+#    7757020      26
+#    7763740      27
+#    7770460      28
+#    7777180      29
+#    7783900      30
+#    7790620      31
+#    7797340      32
+#    7804060      33
+#    7810780      34
+#    7817500      35
+#    7824220      36
+#    7830940      37
+#    7837660      38
+#    7844380      39
+#    7851100      40
+#    7857820      41
+#    7864540      42
+#    7871260      43
+#    7877980      44
+#    7884700      45
+#    7891420      46
+#    7898140      47
+#    7904860      48
+#    7911580      49
+# 
+#     7911580                0100000066 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+#    7929132             0
+#    7946356             1
+#    7963580             2
+#    7980804             3
+#    7998028             4
+#    8015252             5
+#    8032476             6
+#    8049700             7
+#    8066924             8
+#    8084148             9
+#    8101372            10
+#    8118596            11
+#    8135820            12
+#    8153044            13
+#    8170268            14
+#    8187492            15
+#    8204716            16
+#    8221940            17
+#    8239164            18
+#    8256388            19
+#    8273612            20
+#    8290836            21
+#    8308060            22
+#    8325284            23
+#    8342508            24
+#    8359732            25
+#    8376956            26
+#    8394180            27
+#    8411404            28
+#    8428628            29
+#    8445852            30
+#    8463076            31
+#    8480300            32
+#    8497524            33
+#    8514748            34
+#    8531972            35
+#    8549196            36
+#    8566420            37
+#    8583644            38
+#    8600868            39
+#    8618092            40
+#    8635316            41
+#    8652540            42
+#    8669764            43
+#    8686988            44
+#    8704212            45
+#    8721436            46
+#    8738660            47
+#    8755884            48
+#    8773108            49
+# 
+#     8773108                0100000067 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773108 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773108 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773116 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773124 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773132 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773140 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773148 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773156 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773164 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773172 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773172 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773188 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773196 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773204 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 8773212 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#    8780940       0
+#    8794060       1
+#    8804940       2
+#    8826060       3
+#    8846220       4
+#    8852940       5
+#    8865100       6
+#    8873740       7
+#    8881260       8
+#    8902220       9
+#    8912460      10
+#    8925100      11
+#    8938060      12
+#    8947980      13
+#    8968140      14
+#    8977420      15
+#    8995500      16
+#    9010380      17
+#    9019500      18
+#    9029580      19
+#    9049900      20
+#    9062700      21
+#    9071820      22
+#    9083020      23
+#    9094220      24
+#    9106700      25
+#    9119340      26
+#    9137740      27
+#    9152940      28
+#    9170380      29
+#    9186540      30
+#    9208140      31
+#    9215180      32
+#    9231500      33
+#    9239660      34
+#    9255660      35
+#    9272460      36
+#    9289900      37
+#    9311500      38
+#    9327340      39
+#    9343180      40
+#    9364940      41
+#    9377100      42
+#    9396940      43
+#    9404460      44
+#    9414380      45
+#    9433900      46
+#    9446860      47
+#    9458220      48
+#    9475980      49
+#    9496620      50
+#    9509100      51
+#    9525260      52
+#    9541260      53
+#    9549100      54
+#    9559180      55
+#    9566540      56
+#    9582060      57
+#    9595980      58
+#    9614380      59
+# 
+#     9614380                0100000068 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 9614380 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 9614420 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 9614460 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 9614500 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#    9640260       0
+#    9665860       1
+#    9683620       2
+#    9721220       3
+#    9735460       4
+#    9768740       5
+#    9799460       6
+#    9833700       7
+#    9872420       8
+#    9905220       9
+#    9942660      10
+#    9979620      11
+#   10018980      12
+#   10037380      13
+#   10056100      14
+#   10095620      15
+#   10135780      16
+#   10147940      17
+#   10189380      18
+#   10208260      19
+#   10242020      20
+#   10268580      21
+#   10284900      22
+#   10304740      23
+#   10319140      24
+#   10344580      25
+#   10356420      26
+#   10394500      27
+#   10409380      28
+#   10444260      29
+#   10458500      30
+#   10470660      31
+#   10510020      32
+#   10533860      33
+#   10547300      34
+#   10560580      35
+#   10574180      36
+#   10610340      37
+#   10639140      38
+#   10659620      39
+#   10685060      40
+#   10726660      41
+#   10762500      42
+#   10787620      43
+#   10799780      44
+#   10814660      45
+#   10844900      46
+#   10871460      47
+#   10889060      48
+#   10918340      49
+#   10935940      50
+#   10954180      51
+#   10968580      52
+#   10983780      53
+#   11025860      54
+#   11063620      55
+#   11085860      56
+#   11128100      57
+#   11159300      58
+#   11181220      59
+# 
+#    11181220                0100000069 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 11181220 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 11181220 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 11181260 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 11181300 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 11181340 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#   11213820       0
+#   11289500       1
+#   11401500       2
+#   11418300       3
+#   11474620       4
+#   11526940       5
+#   11601500       6
+#   11657180       7
+#   11719100       8
+#   11763420       9
+#   11817180      10
+#   11903260      11
+#   11993660      12
+#   12086620      13
+#   12121180      14
+#   12166140      15
+#   12193820      16
+#   12306460      17
+#   12362780      18
+#   12465500      19
+#   12541980      20
+#   12550780      21
+#   12639900      22
+#   12688060      23
+#   12734140      24
+#   12747900      25
+#   12808220      26
+#   12920380      27
+#   12937500      28
+#   12964700      29
+#   13013980      30
+#   13110940      31
+#   13233500      32
+#   13249180      33
+#   13333500      34
+#   13433980      35
+#   13529980      36
+#   13651260      37
+#   13710620      38
+#   13805020      39
+#   13844060      40
+#   13867580      41
+#   13915100      42
+#   13947260      43
+#   14064380      44
+#   14149980      45
+#   14237500      46
+#   14348220      47
+#   14454780      48
+#   14503740      49
+# 
+#    14503740                0100000070 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 14503740 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 14503780 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 14503820 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 14503860 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#   14554220       0
+#   14585260       1
+#   14597420       2
+#   14662060       3
+#   14732780       4
+#   14799340       5
+#   14817740       6
+#   14869900       7
+#   14898060       8
+#   14962540       9
+#   14969580      10
+#   14987020      11
+#   15020300      12
+#   15094860      13
+#   15164780      14
+#   15179980      15
+#   15243340      16
+#   15279020      17
+#   15305900      18
+#   15345900      19
+#   15372620      20
+#   15395500      21
+#   15471820      22
+#   15547980      23
+#   15630380      24
+#   15660300      25
+#   15667660      26
+#   15706700      27
+#   15789900      28
+#   15817900      29
+#   15826860      30
+#   15834060      31
+#   15902700      32
+#   15975340      33
+#   16016940      34
+#   16071020      35
+#   16111980      36
+#   16140140      37
+#   16203660      38
+#   16249580      39
+#   16278060      40
+#   16318700      41
+#   16387660      42
+#   16434220      43
+#   16511020      44
+#   16566540      45
+#   16611980      46
+#   16680780      47
+#   16707340      48
+#   16736940      49
+# 
+#    16736940                0100000071 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# 
+#    20862100                0100000072 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 20862100 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 20862100 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 20862140 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 20862180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 20862220 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# 
+#    22142108                0100000073 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142108 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142116 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142116 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142124 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142132 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142140 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142148 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142156 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142164 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142172 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142188 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142196 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142204 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 22142212 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# 
+#    23254140                0100000074 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 23254140 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 23254180 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 23254220 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 23254260 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# 
+#    25018980                0100000075 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 25018980 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 25019020 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 25019060 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+# ** Warning: No matching channel descriptor '4' found.  Ignoring the write into the invalid channel.
+#    Time: 25019100 ns  Iteration: 2  Instance: /testbench/U_data_cmp
+#   25028940       0
+#   25038860       1
+#   25053580       2
+#   25063500       3
+#   25077900       4
+#   25099180       5
+#   25119820       6
+#   25131660       7
+#   25139980       8
+#   25149900       9
+#   25165580      10
+#   25185900      11
+#   25198860      12
+#   25209420      13
+#   25220940      14
+#   25233900      15
+#   25243340      16
+#   25265100      17
+#   25280140      18
+#   25290540      19
+#   25304460      20
+#   25319980      21
+#   25327500      22
+#   25348940      23
+#   25362220      24
+#   25375500      25
+#   25385100      26
+#   25403340      27
+#   25424620      28
+#   25443500      29
+# 
+#    25443500                0100000076 is done!!!-----------------------------------------
+# hdhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# ** Note: $stop    : ../testbench/testbench.v(182)
+#    Time: 25453500 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../testbench/testbench.v line 182
+# Stopped at ../testbench/testbench.v line 182
+# Saving coverage database on exit...
+# End time: 17:38:09 on Feb 26,2026, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 80

@@ -1,0 +1,46 @@
+# Current time Thu Feb 26 17:20:28 2026
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.01"
+# Date = "Jan 28 2020"
+# Platform = win64
+
+Exception c0000005 has occurred at address 6d7d563b. Traceback:
+# 0    0x6d7d563b: 'TkWinGetDrawableDC + 0x2b'
+# 1    0x6d7d6acd: 'XCopyArea + 0x7d'
+# 2    0x401df379: 'Mtirpc_Init + 0x52019'
+# 3    0x4025a64c: 'Mtirpc_Init + 0xcd2ec'
+# 4    0x4025692a: 'Mtirpc_Init + 0xc95ca'
+# 5    0x6dab217c: 'TclServiceIdle + 0x6c'
+# 6    0x6da7a9f3: 'Tcl_DoOneEvent + 0x193'
+# 7    0x6d839ba0: 'TkGetDisplayOf + 0x2000'
+# 8    0x6d9c7103: 'TclNRRunCallbacks + 0x63'
+# 9    0x6d9c8974: 'Tcl_EvalEx + 0xa34'
+# 10   0x6d9c91a8: 'Tcl_Eval + 0x38'
+# 11   0x6d9ca4f0: 'Tcl_GlobalEval + 0x30'
+# 12   0x40138931: '<unknown (@0x40138931)>'
+# 13   0x4013902f: '<unknown (@0x4013902f)>'
+# 14   0x40139c3a: '<unknown (@0x40139c3a)>'
+# 15   0x40137805: '<unknown (@0x40137805)>'
+# 16   0x6d9c5226: 'TclInvokeStringCommand + 0xc6'
+# 17   0x6d9c7103: 'TclNRRunCallbacks + 0x63'
+# 18   0x6d9c7103: 'TclNRRunCallbacks + 0x63'
+# 19   0x6d9c8974: 'Tcl_EvalEx + 0xa34'
+# 20   0x6d9c91a8: 'Tcl_Eval + 0x38'
+# 21   0x40184f7b: '<unknown (@0x40184f7b)>'
+# 22   0x6d9c5226: 'TclInvokeStringCommand + 0xc6'
+# 23   0x6d9c7103: 'TclNRRunCallbacks + 0x63'
+# 24   0x6d9c8974: 'Tcl_EvalEx + 0xa34'
+# 25   0x6da64c69: 'Tcl_FSEvalFileEx + 0x229'
+# 26   0x6d88d0f0: 'Tk_MainEx + 0x7a0'
+# 27   0x401b0d5a: 'Mtirpc_Init + 0x239fa'
+# 28   0x401b362d: 'Mtirpc_Init + 0x262cd'
+# 29   0x406fd2ef: 'Tclsqlite3_Init + 0x1dfdf'
+# 30   0x3e44e8d7: 'BaseThreadInitThunk + 0x17'
+# 31   0x4069bf2c: 'RtlUserThreadStart + 0x2c'
+StackWalk failed 0
+# End of Stack Trace
+
+# transcript error: error writing "stdout": broken pipe
+    while executing
+"puts -nonewline stdout $s"
